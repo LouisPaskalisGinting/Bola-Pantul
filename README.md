@@ -9,7 +9,7 @@ Interaksi Sederhana: Gunakan mouse untuk mengklik tombol.
 Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 
 ## Prasyarat
-1. Install phyton.
+1. Install python.
 2. Install opencv.
    dengan cara :
    pip install opencv-python opencv-python-headless
