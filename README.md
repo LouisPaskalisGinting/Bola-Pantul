@@ -29,7 +29,7 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
   - Gerakkan paddle dengan menggerakkan wajah di depan kamera.
 4. Game Over:
   - Jika bola jatuh ke bawah, layar Game Over akan muncul.
-  - Klik tombol "Exit" untuk keluar.
+  - Klik tombol "Mulai Lagi" untuk memulai kembali permainan, dan klik tombol "Exit" untuk keluar permainan.
 
     
 ## Struktur Kode
