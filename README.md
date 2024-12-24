@@ -17,12 +17,11 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 
 ## Cara menjalankan 
 1. Clone atau Unduh Kode:
-  - Clone repository atau unduh file Bola-Pantul.py.
+  - Clone repository atau unduh pada branch master, file yang bernama Main.py.
 2. Jalankan Script:
   - Buka terminal atau command prompt.
   - Jalankan perintah:
-    -bash
-    -python paddle_game.py
+    python paddle_game.py
 
 3. Mulai Bermain:
   - Layar akan menampilkan tombol "Start". Klik tombol untuk memulai permainan.
