@@ -52,8 +52,8 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 ## Contributors 
 | Full Name                    |     NIM   | Github Username                |
 |------------------------------| --------- | ------------------------------ |
-| Maleakhi Pratama Tobing      | 121140225 | LouisPaskalisGinting_121140066 |
-| Louis Paskalis Ginting       | 121140066 | Male27                         |
+| Maleakhi Pratama Tobing      | 121140225 | Male27                         |
+| Louis Paskalis Ginting       | 121140066 | LouisPaskalisGinting_121140066 |
 
 ## Logbook
 | Date & Time                    | Project Progress and Updates    |
