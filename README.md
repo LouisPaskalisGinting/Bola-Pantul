@@ -53,11 +53,11 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 ## Logbook
 | Date & Time                    | Project Progress and Updates    |
 | ------------------------------ | ------------------------------- |
-| December 11, 2024, at 08:28 PM | Hand Tracking using MediaPipe   |
+| December 11, 2024, at 08:28 PM | Perencanaan                     |
 | December 22, 2024, at 03:36 AM | Drawing with index finger tip   |
-| December 22, 2024, at 10:10 PM | Line color change while drawing |
-| December 23, 2024, at 01:27 AM | Clear all line on layer         |
-| December 24, 2024, at 17.45 PM | Finished report                 |
+| December 22, 2024, at 10:10 PM | penambahan Fitur Score          |
+| December 23, 2024, at 01:27 AM | Percobaan ulang code            |
+| December 24, 2024, at 19.00 PM | Pembuatan laporan               |
 
 ## Kontrol
   - Paddle: Gerakkan kepala di depan kamera.
