@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 2. Jalankan program dengan perintah ini di terminal
 ```bash
-   python main.py
+python main.py
 ```
 
 ## Kontrol
