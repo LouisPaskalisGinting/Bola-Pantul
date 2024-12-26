@@ -38,14 +38,14 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 
 ## Instalasi 
 1.Install dependencies dengan perintah berikut.
-   '''
-   pip install -r requirements.txt
-   '''
+```sh
+pip install -r requirements.txt
+```
 2. Jalankan program dengan perintah ini di terminal
-   '''
+```bash
    python main.py
-   '''
-   
+```
+
 ## Kontrol
   - Paddle: Gerakkan kepala di depan kamera.
   - Tombol:
