@@ -8,47 +8,19 @@ Tombol Exit: Ditampilkan setelah Game Over untuk keluar dari permainan.
 Interaksi Sederhana: Gunakan mouse untuk mengklik tombol.
 Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 
-## Prasyarat
-1. Install python.
-2. Install opencv.
-   dengan cara :
-   pip install opencv-python opencv-python-headless
-3. Pastikan kamera berfungsi dengan baik.
-
-## Cara menjalankan 
-1. Clone atau Unduh Kode:
-  - Clone repository atau unduh pada branch master, file yang bernama Main.py.
-2. Jalankan Script:
-  - Buka terminal atau command prompt.
-  - Jalankan perintah:
-    python paddle_game.py
-
-3. Mulai Bermain:
-  - Layar akan menampilkan tombol "Start". Klik tombol untuk memulai permainan.
-  - Gerakkan paddle dengan menggerakkan wajah di depan kamera.
-4. Game Over:
-  - Jika bola jatuh ke bawah, layar Game Over akan muncul.
-  - Klik tombol "Mulai Lagi" untuk memulai kembali permainan, dan klik tombol "Exit" untuk keluar permainan.
-
-    
-## Struktur Kode
-1. Konfigurasi Awal
-  - Mengatur dimensi layar permainan, paddle, bola, dan kecepatan bola.
-
-2. Deteksi Wajah
-  - Menggunakan Haar Cascade untuk mendeteksi wajah pemain dan menggerakkan paddle secara horizontal.
-
-3. Tombol Start dan Exit
-  - tombol ditampilkan untuk interaksi:
-    - Start: Memulai permainan.
-    - Exit: Mengakhiri permainan setelah Game Over.
-      
-4. Gameplay
-  - Bola memantul pada dinding dan paddle.
-  - Skor bertambah setiap kali bola memantul pada paddle.
-
-5. Game Over
-  - Jika bola jatuh ke bawah layar, layar Game Over ditampilkan dengan skor akhir.
+## Library yang digunakan
+1. OpenCV
+   Fungsi: Library ini digunakan untuk pengolahan citra dan video, serta akses kamera.
+   Contoh penggunaan:
+      - Membuka kamera dengan cv2.VideoCapture().
+      - Menampilkan jendela permainan dengan cv2.imshow().
+      - Menggambar elemen pada layar (seperti teks, rectangle, atau lingkaran) menggunakan cv2.rectangle(), cv2.circle(), dan cv2.putText().
+      - Melakukan deteksi wajah dengan cv2.CascadeClassifier.
+2. NumPy (numpy)
+   Fungsi: Library ini digunakan untuk manipulasi array dan operasi numerik.
+   Contoh penggunaan:
+         - Membuat frame hitam (layar awal) dengan np.zeros((HEIGHT, WIDTH, 3), dtype=np.uint8).
+   
 ## Contributors 
 | Full Name                    |     NIM   | Github Username                |
 |------------------------------| --------- | ------------------------------ |
@@ -59,7 +31,7 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 | Date & Time                    | Project Progress and Updates    |
 | ------------------------------ | ------------------------------- |
 | December 11, 2024, at 08:28 PM | Perencanaan                     |
-| December 22, 2024, at 03:36 AM | Drawing with index finger tip   |
+| December 22, 2024, at 03:36 AM | Pembuatan code                  |
 | December 22, 2024, at 10:10 PM | penambahan Fitur Score          |
 | December 23, 2024, at 01:27 AM | Percobaan ulang code            |
 | December 24, 2024, at 19.00 PM | Pembuatan laporan               |
