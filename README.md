@@ -36,6 +36,16 @@ Skor: Menampilkan skor berdasarkan jumlah pantulan bola pada paddle.
 | December 23, 2024, at 01:27 AM | Percobaan ulang code            |
 | December 24, 2024, at 19.00 PM | Pembuatan laporan               |
 
+## Instalasi 
+1.Install dependencies dengan perintah berikut.
+   '''
+   pip install -r requirements.txt
+   '''
+2. Jalankan program dengan perintah ini di terminal
+   '''
+   python main.py
+   '''
+   
 ## Kontrol
   - Paddle: Gerakkan kepala di depan kamera.
   - Tombol:
